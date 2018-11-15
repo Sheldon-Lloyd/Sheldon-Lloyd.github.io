@@ -108,7 +108,15 @@ header,footer {
   text-decoration: none;
   font-size: 2em;
 }
-
+.social-link {
+    border:1px solid #ccc;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    background-size: 100%;
+    text-indent: -100%;
+}
 /*view layout*/
 .view {
   background: #fff;
