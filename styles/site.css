@@ -105,8 +105,14 @@ header,footer {
   transform: none;
 }
 .portfolio-link {
-  text-decoration: none;
   font-size: 2em;
+  font-weight: 100;
+  display: inline;
+  margin: 0
+}
+.portfolio-link a{
+  text-decoration: none;
+  color:inherit
 }
 .social-link {
     border:1px solid #ccc;
