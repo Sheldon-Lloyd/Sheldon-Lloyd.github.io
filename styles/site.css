@@ -249,6 +249,12 @@ header,footer {
   white-space: nowrap;
   width: 100%;
   text-decoration: none;
+  position:absolute;
+  left:0;
+}
+.nav-list-wrapper{
+  position: relative;
+  height: 2em;
 }
 .main-nav ul, .main-nav p {
   width: 65%;
