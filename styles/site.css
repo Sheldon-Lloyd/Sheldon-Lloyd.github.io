@@ -181,6 +181,7 @@ header,footer {
 /*Main/Home Screen Navigation Layout*/
 .main-nav {
   min-height: calc(100vh - 20px);
+  max-width: calc(100% - 200px);
   flex: 1 1 100%;
   flex-direction: column;
   z-index: 1;
@@ -407,6 +408,7 @@ header,footer {
   display: block;
   margin: 0;
   animation: shown 0.3s ease-out;
+  max-width: calc(100% - 200px);
 }
 .view:target ~ .main-nav > .main-nav-item {
   display: none;
