@@ -441,7 +441,7 @@ header,footer {
 @media screen and (min-width: 1020px) {
   .main-nav-item {
     width: calc(50% - 10px);
-    height: 0;
+    height: calc(50% - 10px);
     min-height: 120px;
   }
   .main-nav {
