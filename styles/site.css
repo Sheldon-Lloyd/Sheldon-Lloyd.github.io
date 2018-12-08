@@ -448,6 +448,7 @@ header,footer {
   }
   .main-nav {
     flex-wrap: wrap;
+    flex-direction:row;
   }
   .main-nav-link a:before {
     content: "\0025A0 \0025A0";
