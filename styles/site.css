@@ -316,6 +316,7 @@ header,footer {
   content: "";
   width: 0;
   height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -329,24 +330,20 @@ header,footer {
   opacity: 0;
 }
 .projects .main-nav-list li:nth-child(1):hover:after {
-  background: url(http://fc06.deviantart.net/fs70/i/2014/083/9/1/minina_hyperdrive_by_sheldon227-d7bhlqh.png) -122px -55px / cover;
+  background: url(../images/webcomicx-screenshot.png) -122px -55px / cover;
   opacity: 0.2;
-  width: 100%;
 }
 .projects .main-nav-list li:nth-child(2):hover:after {
-  background: url(http://pre01.deviantart.net/ac2d/th/pre/i/2016/123/5/4/bursun_light_by_sheldon227-d9f89no.png) -175px -100px / cover;
+  background: url(../images/comicharacters-screenshot.png) -175px -100px / cover;
   opacity: 0.4;
-  width: 100%;
 }
 .projects .main-nav-list li:nth-child(3):hover:after {
-  background: url(https://orig00.deviantart.net/f3f4/f/2011/172/c/4/eclipse_the_cyber_warrior_by_sheldon227-d3jm86w.jpg) -100px 0px / cover;
+  background: url(../images/spa-screenshot.png) -100px 0px / cover;
   opacity: 0.4;
-  width: 100%;
 }
 .projects .main-nav-list li:nth-child(4):hover:after {
   background: url(https://orig00.deviantart.net/48e6/f/2012/336/4/5/taz_by_sheldon227-d5msv69.jpg) -175px -40px / cover;
   opacity: 0.4;
-  width: 100%;
 }
 
 /*Resume Navigation Module*/
@@ -402,7 +399,8 @@ header,footer {
   content: "+";
   position: absolute;
   top: 0px;
-  left: -4px;
+  left: -7px;
+  background: #fff;
 }
 .view:target {
   display: block;
@@ -567,15 +565,13 @@ header,footer {
   .flexbox {
     flex-wrap: wrap;
   }
-  .main-nav {
+  .main-nav,.view:target {
     margin-top: 0;
     display:block;
+    max-width: inherit;
   }
   .project-list li.is-active:after, .project-list-heading:after, .project-list li:hover:after {
-    height: 12px;
-    top: 2px;
-    left:-2px
-
+    left:-5px
   }
 }
 
