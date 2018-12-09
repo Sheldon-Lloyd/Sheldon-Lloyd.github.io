@@ -330,19 +330,15 @@ header,footer {
   opacity: 0;
 }
 .projects .main-nav-list li:nth-child(1):hover:after {
-  background: url(../images/webcomicx-screenshot.png) -122px -55px / cover;
-  opacity: 0.2;
+  background: url(../images/webcomicx-screenshot.png) 0px -50px / cover;
+  opacity: 0.4;
 }
 .projects .main-nav-list li:nth-child(2):hover:after {
-  background: url(../images/comicharacters-screenshot.png) -175px -100px / cover;
+  background: url(../images/comicharacters-screenshot.png) 0px -50px / cover;
   opacity: 0.4;
 }
 .projects .main-nav-list li:nth-child(3):hover:after {
-  background: url(../images/spa-screenshot.png) -100px 0px / cover;
-  opacity: 0.4;
-}
-.projects .main-nav-list li:nth-child(4):hover:after {
-  background: url(https://orig00.deviantart.net/48e6/f/2012/336/4/5/taz_by_sheldon227-d5msv69.jpg) -175px -40px / cover;
+  background: url(../images/spa-screenshot.png) 0px -50px / cover;
   opacity: 0.4;
 }
 
@@ -505,6 +501,7 @@ header,footer {
   }
   .view {
     padding: 10px 30px;
+    max-width: inherit!important;
   }
   .view:target ~ .main-nav .main-nav-link {
     left: 45px;
