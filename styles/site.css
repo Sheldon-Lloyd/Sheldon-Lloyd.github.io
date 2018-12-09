@@ -316,7 +316,6 @@ header,footer {
   content: "";
   width: 0;
   height: 100%;
-  width: 100%;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -326,20 +325,21 @@ header,footer {
   opacity: 0;
   transition: opacity 0.5s;
 }
+.projects .main-nav-list li:hover:after {
+  width: 100%;
+  opacity: 0.4;
+}
 .projects .main-nav-list li:nth-child(1):hover:before {
   opacity: 0;
 }
 .projects .main-nav-list li:nth-child(1):hover:after {
   background: url(../images/webcomicx-screenshot.png) 0px -50px / cover;
-  opacity: 0.4;
 }
 .projects .main-nav-list li:nth-child(2):hover:after {
   background: url(../images/comicharacters-screenshot.png) 0px -50px / cover;
-  opacity: 0.4;
 }
 .projects .main-nav-list li:nth-child(3):hover:after {
   background: url(../images/spa-screenshot.png) 0px -50px / cover;
-  opacity: 0.4;
 }
 
 /*Resume Navigation Module*/
