@@ -37,6 +37,11 @@ header,footer {
   position: relative;
   min-width: 100px;
 }
+figcaption{
+  font-size: .7em;
+  opacity: .5;
+  font-style: italic
+}
 
 /*Layout*/
 .cf:after {
