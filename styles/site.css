@@ -126,7 +126,7 @@ figcaption{
     width: 50px;
     overflow: hidden;
     background-size: 100%;
-    text-indent: -100%;
+    text-indent: 100%;
 }
 /*view layout*/
 .view {
