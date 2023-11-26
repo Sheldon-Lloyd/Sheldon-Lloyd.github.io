@@ -127,6 +127,7 @@ figcaption{
     overflow: hidden;
     background-size: 100%;
     text-indent: 100%;
+    margin-right: 5px;
 }
 /*view layout*/
 .view {
