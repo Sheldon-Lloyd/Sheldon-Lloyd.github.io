@@ -275,7 +275,7 @@ figcaption{
 }
 .projects:after {
   content: "";
-  /*background: url(http://fc06.deviantart.net/fs70/i/2014/083/9/1/minina_hyperdrive_by_sheldon227-d7bhlqh.png) -122px -55px / cover;*/
+  background: url(../images/Kyshumu_white-v2.jpg) -122px -55px / cover;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -368,9 +368,9 @@ figcaption{
 }
 .about:after {
   content: "";
-  /*background: url(https://img00.deviantart.net/d486/i/2016/340/c/f/minina_and_her_cyber_beast_droid_by_sheldon227-dapnxoh.png);*/
-  background-position: -132px 0px;
-  background-size: cover;
+  background: url(../images/sheldon.jpg);
+  background-position: 0px 0px;
+  background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
