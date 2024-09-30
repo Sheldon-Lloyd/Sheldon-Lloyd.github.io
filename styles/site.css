@@ -225,7 +225,6 @@ figcaption{
 .main-nav-item {
   margin: 5px;
   flex: 100%;
-  min-height: 200px;
   flex-direction: row;
   flex-basis: calc(50% - 10px);
   justify-content: center;
@@ -357,6 +356,7 @@ figcaption{
 /*Resume Navigation Module*/
 .resume {
   text-align: center;
+  min-height: 200px;
 }
 .resume a {
   text-decoration: none;
