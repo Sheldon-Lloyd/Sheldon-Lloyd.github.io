@@ -1,0 +1,33 @@
+*{
+  box-sizing: border-box;
+}
+.body{
+  background:#333;
+}
+
+.container.launch {
+    background: #365b87;
+    color: #f2f2f2;
+    border-radius: 15px;
+    width: 630px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+.inner-container {
+    background: #333;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 15px 50px;
+    font-size: 22px;
+}
+.social-link {
+    border: 1px solid #ccc;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    background-size: 100%;
+    text-indent: 100%;
+    margin-right: 5px;
+}
