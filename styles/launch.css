@@ -2,8 +2,11 @@
   box-sizing: border-box;
 }
 body{
-  background:#333;
-}
+    background: #c7c7c7;
+    background-image: url(../images/Kyshumu_white-v2.jpg), url(../images/Tomasina_visor.jpg);
+    background-size: 50%;
+    background-position: right 10%, left 10%;
+    background-repeat: no-repeat;}
 .align-center{
   text-align:center
 }
