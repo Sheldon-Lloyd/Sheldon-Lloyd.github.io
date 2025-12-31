@@ -26,6 +26,9 @@ body{
     padding: 15px 50px;
     font-size: 22px;
 }
+.social{
+  text-align:center
+}
 .social-link {
     border: 1px solid #ccc;
     display: inline-block;
@@ -38,7 +41,7 @@ body{
   background-color:#f2f2f2;
   border-radius:50%
 }
-.launch{
+.launch .footer{
   text-align:center
 }
 .launch a.footer, launch .footer{
