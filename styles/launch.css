@@ -44,7 +44,8 @@ body{
 .launch .footer{
   text-align:center
 }
-.launch a.footer, launch .footer{
+.launch a, launch .footer{
   color:#f2f2f2;
-  font-size:15px
+  font-size:15px;
+  text-decoration: underline
 }
