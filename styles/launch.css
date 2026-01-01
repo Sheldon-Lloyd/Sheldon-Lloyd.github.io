@@ -31,6 +31,7 @@ body{
     text-indent: -220%;
     background-size: contain;
     background-repeat: no-repeat;
+  overflow: hidden;
 }
 .inner-container {
     background: #f2f2f2;
