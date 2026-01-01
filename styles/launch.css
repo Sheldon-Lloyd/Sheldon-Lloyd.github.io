@@ -26,7 +26,12 @@ body{
     text-align: center;
     margin: auto;
 }
-
+.launch h1{
+  background-image: url(../images/comicharacters-logo.png);
+    text-indent: -220%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .inner-container {
     background: #333;
     margin: 5px;
