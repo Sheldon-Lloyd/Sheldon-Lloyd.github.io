@@ -1,0 +1,80 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../styles/main.css">
+<script>
+getText("bio.txt");
+
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  document.getElementById("bio-content").innerHTML = myText;
+}
+
+</script>
+  </head>
+  <body>
+<div class="grid">
+<header class="primary-container header">   
+    <h2>Characters Network Square</h2>
+</header>
+
+<div class="vertical-text primary-container header-side">
+    <label for="menu-checkbox" class="menu-header float-right"><span>MENU</span></label><h1 class="float-right header-app">Characters Hub</h1>
+</div>
+<input type="checkbox" id="menu-checkbox" class="menu-checkbox"/>
+<nav class="nav">
+    <ul class="nav-list  secondary-container">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../character-vault/characters.html">Character Vault</a></li>
+        <li><a href="../timeline.html">Timeline</a></li>
+        <li><a href="../about.html">About</a></li>
+    </ul>
+</nav>
+<main class="focus secondary-container">
+
+    <div class="character-profile flex">
+        <div class="card-thumbnail item flex-column-2">
+            <div class="grid">
+            <h3 class="card header-side vertical-text">Character</h3>
+            <div class="focus">
+            <h1 class="card header">Aimee Cunningham</h1>
+            <div class="fancy-border-radius">
+            <img class="card-thumbnail-image" src="../images/aimee.webp" alt="Character Image">
+            <p class="primary-container">Narratives</p>
+
+        </div>
+        </div>
+        </div>
+            <ul class="narrative-list-thumbnail">
+                <li>Hero.Warz</li>
+                <li>Halo Blade</li>
+                <li>Quantum.Mech</li>
+            </ul>   
+        </div>
+        <div class="content">
+            <div id="bio-content"></div>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam lectus sed orci finibus auctor. Nunc eget mauris eu risus ultricies commodo. Donec non tincidunt ex. Fusce lacinia ipsum ac tortor lacinia tincidunt. Aenean eu orci sit amet nibh lacinia hendrerit at vel velit. Suspendisse non arcu tincidunt, consectetur mauris non, accumsan urna. Praesent ultricies purus sit amet massa efficitur, eu elementum nulla tincidunt. Aliquam a magna cursus, ornare quam a, sollicitudin est. Curabitur faucibus tempus est vitae facilisis. Morbi quis ligula at lectus mattis volutpat eget sit amet sem. Sed non scelerisque dolor, at accumsan elit. Praesent facilisis fermentum eros tempus volutpat. Donec nisi quam, rhoncus ac scelerisque eu, imperdiet a nisl. Praesent lacinia magna ullamcorper orci euismod vehicula.
+</p>
+        <p>
+Praesent non lectus a sapien fringilla pulvinar eget vitae neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius eleifend vulputate. Nunc feugiat posuere sollicitudin. Phasellus scelerisque vehicula massa, id feugiat nisi venenatis non. Mauris rutrum, lectus et molestie volutpat, sem diam cursus erat, quis lobortis justo tortor at orci. Morbi iaculis orci in libero placerat ultricies. Praesent efficitur sodales fermentum. Sed finibus eleifend eros, eget molestie tortor tristique nec. Aenean eget pretium magna. Aliquam luctus orci vel enim tempor hendrerit. Vivamus ultricies ligula neque, nec ullamcorper ipsum hendrerit vel. Pellentesque lobortis purus nec urna tristique, nec faucibus mi luctus.
+        </p>
+        <p>
+In at risus lacus. Suspendisse potenti. Maecenas gravida euismod ultrices. Duis quam ante, congue eu tempor vel, consequat a arcu. Sed ac velit diam. Aliquam urna tortor, cursus sed felis bibendum, commodo luctus ipsum. Nullam eu nisl lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        </p>
+        <p>
+Vivamus quis pretium felis. Vivamus rhoncus diam pulvinar lorem interdum, in ornare nulla suscipit. Nulla sagittis imperdiet ligula, dignissim ornare metus imperdiet in. Aenean vitae orci ac lacus gravida finibus. Ut et cursus urna, a porta metus. Proin condimentum nibh ut libero ullamcorper, vitae feugiat ligula tempor. Etiam facilisis neque urna, sit amet efficitur nisl vulputate nec. Nam dignissim, tellus at blandit tincidunt, neque augue vestibulum enim, id iaculis ipsum turpis non velit. Donec auctor porttitor massa a mattis.
+</p>
+        <p>
+Ut lobortis accumsan risus, et convallis tortor pharetra at. Fusce tincidunt lorem sed turpis rutrum luctus. Nam hendrerit orci dapibus turpis posuere consequat. Nulla et luctus elit, nec aliquet arcu. Sed et iaculis sapien, a varius elit. Curabitur ut dui porttitor, gravida enim lobortis, tempus elit. Proin urna sapien, convallis in venenatis quis, rutrum in augue. Ut aliquet odio et nibh ornare lobortis. Fusce finibus eros eu maximus rutrum. Fusce vulputate sem placerat placerat luctus. Morbi non efficitur erat. Donec tortor dui, cursus nec feugiat vel, venenatis feugiat augue. Cras massa nibh, efficitur id turpis quis, volutpat dictum sem.
+        </p>    
+</div>
+    </div>
+
+</main>
+<footer class="primary-container">
+    <p>&copy; 2025 by Sheldon Micheals Lloyd. All rights reserved.</p>
+</footer>
+</div>
+</body>
+</html>

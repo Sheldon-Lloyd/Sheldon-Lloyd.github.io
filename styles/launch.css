@@ -14,7 +14,7 @@ body{
     background: #365b87;
     color: #f2f2f2;
     border-radius: 15px;
-    width: 630px;
+    max-width: 630px;
     margin: auto;
     line-height: 1.5;
 }
@@ -27,12 +27,22 @@ body{
     margin: auto;
 }
 .launch h1{
-  background-image: url(../images/comicharacters-logo.png);
-    text-indent: -220%;
+    overflow: clip;
+    white-space: nowrap;
+}
+.launch h1 span{
+    text-indent: 220%;
     background-size: contain;
     background-repeat: no-repeat;
   overflow: hidden;
+  text-overflow: clip;
+  display: inline-block;
+  white-space: nowrap;
 }
+.launch h1 img{
+max-width: 100%;
+}
+
 .inner-container {
     background: #f2f2f2;
   color:#222;

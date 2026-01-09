@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open characters.html",
+            "file": "c:\\Users\\slloy\\OneDrive\\Documents\\GitHub\\Sheldon-Lloyd.github.io\\character-vault\\characters.html"
+        }
+    ]
+}
