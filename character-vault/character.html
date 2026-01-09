@@ -2,18 +2,26 @@
   <head>
 <<<<<<< HEAD
     <link rel="stylesheet" href="../styles/main.css">
-<script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/<version tag>/showdown.min.js"></script>
+<script crossorigin="anonymous">
 getText("bio.txt");
 
 async function getText(file) {
   let myObject = await fetch(file);
   let myText = await myObject.text();
-  document.getElementById("bio-content").innerHTML = myText;
+  var converter = new showdown.Converter(),
+    text      = '# hello, markdown!',
+    html      = converter.makeHtml(text);
+
+      document.getElementById("bio-content").innerHTML = html;
+      alert(html);
 }
+
 
 </script>
   </head>
-  <body>
+  <body onload="getText">
 <div class="grid">
 <header class="primary-container header">   
     <h2>Characters Network Square</h2>
