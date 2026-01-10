@@ -4,15 +4,19 @@
     <link rel="stylesheet" href="../styles/main.css">
     
     <script src="https://unpkg.com/showdown@2.1.0/dist/showdown.min.js"></script>
-<script crossorigin="anonymous">
+<script>
 getText("bio.txt");
-
+async function getText(file) {
+  let x = await fetch(file);
+  let y = await x.text();
+  document.getElementById("demo").innerHTML = y;
+}
 async function getText(file) {
   let myObject = await fetch(file);
   let myText = await myObject.text();
   var converter = new showdown.Converter(),
     text      = '# hello, markdown!',
-    html      = converter.makeHtml(text);
+    html      = converter.makeHtml(myText);
 
       document.getElementById("bio-content").innerHTML = html;
       alert(html);
